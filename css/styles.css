@@ -205,3 +205,16 @@ p {
     transform: rotate(0);
   }
 }
+
+
+
+/* Merchandise Section */
+
+/* #merchandise {
+  background-color: red;
+} */
+
+.merchandise-image {
+  width: 50%;
+  margin: 20px;
+}
