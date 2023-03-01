@@ -118,6 +118,14 @@ p {
   color: #0C8B16;
 }
 
+
+/* Reservation Section */
+
+/* #reservation{
+  text-align: left;
+} */
+
+
 /* About Us Section */
 
 
@@ -214,7 +222,14 @@ p {
   background-color: red;
 } */
 
+.offer-image {
+  width: 30%;
+  height: 20%;
+  margin: 20px;
+}
+
 .merchandise-image {
-  width: 50%;
+  width: 60%;
+  height: 60%;
   margin: 20px;
 }

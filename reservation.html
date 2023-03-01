@@ -3,10 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Reservation</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
   </head>
   <body>
 
     <h1>Reservation</h1>
+
+    <section class="dark-colored-section" id="reservation">
+
+      <h3>Book your table early and come for a special night!</h3>
+
+      <form action="mailto:stavxatzi@hotmail.com?subject=MailFromWebsite" method="post" enctype="text/plain">
+        <label>Name</label>
+        <input type="text" name="Name: " value=""><br>
+        <label>Phone</label>
+        <input type="phone" name="Phone: " value=""><br>
+        <label>Number of People</label>
+        <input type="number" name="People: " value=""><br>
+        <label>Any special request</label>
+        <textarea name="Message" rows="4" cols="50"></textarea>
+        <input type="submit" name="">
+      </form>
 
   </body>
 </html>
