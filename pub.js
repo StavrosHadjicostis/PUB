@@ -17,3 +17,7 @@ $("#career").click(function() {
 
   location.href ="careers.html";
 });
+
+$("#beermenu").click(function(){
+  location.href ="menu.pdf";
+})
