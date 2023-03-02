@@ -218,9 +218,7 @@ p {
 
 /* Merchandise Section */
 
-/* #merchandise {
-  background-color: red;
-} */
+
 
 .offer-image {
   width: 30%;
@@ -229,6 +227,16 @@ p {
 }
 
 .merchandise-image {
+  width: 60%;
+  height: 60%;
+  margin: 20px;
+}
+
+/* Event Section */
+
+.
+
+.event-image {
   width: 60%;
   height: 60%;
   margin: 20px;
